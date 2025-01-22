@@ -19,11 +19,11 @@
   "vim.normalModeKeyBindings": [
     {
       "before": ["J"],
-      "after": ["5","j"],
+      "after": ["5", "j"]
     },
     {
       "before": ["K"],
-      "after": ["5","k"],
+      "after": ["5", "k"]
     },
 
     {
@@ -78,8 +78,8 @@
       "commands": ["workbench.view.scm"]
     },
     {
-      "before": ["<leader>", "s"],
-      "commands": ["workbench.action.showAllSymbols"]
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.showCommands"]
     },
 
     {
@@ -102,6 +102,15 @@
     {
       "before": ["<leader>", "/"],
       "commands": ["editor.action.commentLine"]
+    },
+
+    {
+      "before": ["<leader>", "t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<leader>", "t", "o"],
+      "commands": [":tabo"]
     }
   ],
   "vim.visualModeKeyBindings": [
