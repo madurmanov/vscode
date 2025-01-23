@@ -3,6 +3,9 @@
   "editor.tabSize": 2,
   "editor.cursorStyle": "block",
   "editor.renderWhitespace": "trailing",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "files.trimTrailingWhitespace": true,
   "vim.useSystemClipboard": true,
@@ -173,9 +176,6 @@
       "titleBar.activeBackground": "#FEF8E7",
       "titleBar.inactiveBackground": "#FEF8E7"
     }
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
