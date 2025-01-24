@@ -6,8 +6,17 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontFamily": "'Meslo LG M DZ', Consolas, 'Courier New', monospace",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
   "files.trimTrailingWhitespace": true,
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Russian",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+  },
   "vim.useSystemClipboard": true,
   "vim.smartRelativeLine": true,
   "vim.hlsearch": true,
@@ -127,8 +136,6 @@
       "commands": ["editor.action.commentLine"]
     }
   ],
-  "vscodeGoogleTranslate.preferredLanguage": "Russian",
-  "editor.fontFamily": "'Meslo LG M DZ', Consolas, 'Courier New', monospace",
   "workbench.colorCustomizations": {
     "[Ayu*]": {
       "editorBracketHighlight.foreground1": "#2D2D2D",
