@@ -108,7 +108,7 @@
     },
     {
       "before": ["<leader>", "g", "k"],
-      "commands": ["workbench.action.editor.previouschange"]
+      "commands": ["workbench.action.editor.previousChange"]
     },
 
     {
@@ -123,6 +123,60 @@
     {
       "before": ["<leader>", "t", "o"],
       "commands": [":tabo"]
+    },
+
+    {
+      "before": ["<leader>", "k", "k"],
+      "commands": ["editor.fold"]
+    },
+    {
+      "before": ["<leader>", "k", "l"],
+      "commands": ["editor.unfold"]
+    },
+    {
+      "before": ["<leader>", "k", "0"],
+      "commands": ["editor.foldAll"]
+    },
+    {
+      "before": ["<leader>", "k", "l", "0"],
+      "commands": ["editor.unfoldAll"]
+    },
+    {
+      "before": ["<leader>", "k", "="],
+      "commands": ["editor.foldAllBlockComments"]
+    },
+    {
+      "before": ["<leader>", "k", "1"],
+      "commands": ["editor.foldLevel1"]
+    },
+    {
+      "before": ["<leader>", "k", "2"],
+      "commands": ["editor.foldLevel2"]
+    },
+    {
+      "before": ["<leader>", "k", "3"],
+      "commands": ["editor.foldLevel3"]
+    },
+    {
+      "before": ["<leader>", "k", "4"],
+      "commands": ["editor.foldLevel4"]
+    },
+    {
+      "before": ["<leader>", "k", "5"],
+      "commands": ["editor.foldLevel5"]
+    },
+    {
+      "before": ["<leader>", "k", "6"],
+      "commands": ["editor.foldLevel6"]
+    },
+    {
+      "before": ["<leader>", "k", "7"],
+      "commands": ["editor.foldLevel7"]
+    },
+
+    {
+      "before": ["<leader>", ";"],
+      "commands": [":nohls"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -138,6 +192,15 @@
     {
       "before": ["<leader>", "t"],
       "commands": ["commentTranslate.replaceSelections"]
+    },
+
+    {
+      "before": ["<leader>", "k", "-"],
+      "commands": ["editor.foldAllExcept"]
+    },
+    {
+      "before": ["<leader>", "k", "l", "-"],
+      "commands": ["editor.unfoldAllExcept"]
     }
   ],
   "workbench.colorCustomizations": {
