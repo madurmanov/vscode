@@ -14,7 +14,7 @@
   "git.confirmSync": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.editorAssociations": {
-    "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+    "*.{md,csv,svg}": "default"
   },
   "vim.useSystemClipboard": true,
   "vim.smartRelativeLine": true,
@@ -177,6 +177,15 @@
     {
       "before": ["<leader>", ";"],
       "commands": [":nohls"]
+    },
+
+    {
+      "before": ["<leader>", "m", "m"],
+      "commands": ["office.markdown.switch"]
+    },
+    {
+      "before": ["<leader>", "m", "h"],
+      "commands": ["office.html.preview"]
     }
   ],
   "vim.visualModeKeyBindings": [
