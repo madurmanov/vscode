@@ -1,27 +1,26 @@
 {
   "workbench.colorTheme": "Ayu Light Bordered",
+  "editor.fontFamily": "'Meslo LG M DZ', Consolas, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.cursorStyle": "block",
   "editor.renderWhitespace": "trailing",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.fontFamily": "'Meslo LG M DZ', Consolas, 'Courier New', monospace",
+  "commentTranslate.targetLanguage": "ru",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "vscodeGoogleTranslate.preferredLanguage": "Russian",
   "workbench.editorAssociations": {
-    "*.copilotmd": "vscode.markdown.preview.editor",
     "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
   },
   "vim.useSystemClipboard": true,
   "vim.smartRelativeLine": true,
   "vim.hlsearch": true,
   "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.duration": 998,
+  "vim.highlightedyank.duration": 999,
   "vim.leader": "<space>",
   "vim.insertModeKeyBindings": [
     {
@@ -134,6 +133,11 @@
     {
       "before": ["<leader>", "/"],
       "commands": ["editor.action.commentLine"]
+    },
+
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["commentTranslate.replaceSelections"]
     }
   ],
   "workbench.colorCustomizations": {
@@ -146,7 +150,7 @@
       "editorBracketHighlight.foreground6": "#2D2D2D",
       "foreground": "#2D2D2D",
       "list.inactiveSelectionForeground": "#2D2D2D",
-      "sideBarSectionHeader.foreground": "#1D2D2D",
+      "sideBarSectionHeader.foreground": "#2D2D2D",
       "statusBar.foreground": "#2D2D2D",
       "tab.activeForeground": "#2D2D2D",
       "tab.inactiveForeground": "#2D2D2D",
