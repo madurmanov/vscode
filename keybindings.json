@@ -10,7 +10,7 @@
     "when": "textInputFocus && vim.mode != 'Visual'"
   },
   {
-    "key": "shift+left",
+    "key": "ctrl+j",
     "command": "workbench.action.moveEditorLeftInGroup",
     "when": "vim.mode == 'Normal'"
   },
@@ -25,9 +25,26 @@
     "when": "textInputFocus && vim.mode != 'Visual'"
   },
   {
-    "key": "shift+right",
+    "key": "ctrl+k",
     "command": "workbench.action.moveEditorRightInGroup",
     "when": "vim.mode == 'Normal'"
+  },
+
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "workbench.action.moveEditorToPreviousGroup"
   },
 
   {
@@ -68,22 +85,5 @@
     "key": "p",
     "command": "filesExplorer.paste",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-  },
-
-  {
-    "key": "ctrl+alt+l",
-    "command": "workbench.action.moveEditorToNextGroup"
-  },
-  {
-    "key": "ctrl+alt+right",
-    "command": "-workbench.action.moveEditorToNextGroup"
-  },
-  {
-    "key": "ctrl+alt+h",
-    "command": "workbench.action.moveEditorToPreviousGroup"
-  },
-  {
-    "key": "ctrl+alt+left",
-    "command": "-workbench.action.moveEditorToPreviousGroup"
   }
 ]

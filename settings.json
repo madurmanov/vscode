@@ -14,7 +14,8 @@
   "git.confirmSync": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.editorAssociations": {
-    "*.{md,csv,svg}": "default"
+    "*.{md,csv,svg}": "default",
+    "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
   },
   "vim.useSystemClipboard": true,
   "vim.smartRelativeLine": true,
@@ -63,14 +64,6 @@
     {
       "before": ["<C-h>"],
       "commands": ["workbench.action.focusLeftGroup"]
-    },
-    {
-      "before": ["<C-j>"],
-      "commands": ["workbench.action.focusBelowGroup"]
-    },
-    {
-      "before": ["<C-k>"],
-      "commands": ["workbench.action.focusAboveGroup"]
     },
     {
       "before": ["<C-l>"],
