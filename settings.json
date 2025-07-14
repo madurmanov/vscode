@@ -7,10 +7,13 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "explorer.autoReveal": false,
   "commentTranslate.targetLanguage": "ru",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "files.trimTrailingWhitespace": true,
+  "prettier.printWidth": 80,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
   "git.confirmSync": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.editorAssociations": {
