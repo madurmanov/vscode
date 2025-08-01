@@ -10,6 +10,7 @@
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "html.format.wrapLineLength": 0,
