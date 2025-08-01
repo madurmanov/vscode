@@ -1,21 +1,24 @@
 {
-  "workbench.colorTheme": "Ayu Light Bordered",
-  "editor.fontFamily": "'Meslo LG M DZ', Consolas, 'Courier New', monospace",
-  "editor.tabSize": 2,
-  "editor.cursorStyle": "block",
-  "editor.renderWhitespace": "trailing",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "explorer.autoReveal": false,
   "commentTranslate.targetLanguage": "ru",
-  "explorer.confirmDragAndDrop": false,
+  "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Meslo LG M DZ', Consolas, 'Courier New', monospace",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.tabSize": 2,
+  "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.trimTrailingWhitespace": true,
-  "prettier.printWidth": 80,
-  "prettier.htmlWhitespaceSensitivity": "ignore",
   "git.confirmSync": false,
+  "html.format.wrapLineLength": 0,
   "liveServer.settings.donotShowInfoMsg": true,
+  "notebook.output.wordWrap": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Ayu Light Bordered",
   "workbench.editorAssociations": {
     "*.{md,csv,svg}": "default",
     "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
@@ -258,5 +261,8 @@
   },
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
