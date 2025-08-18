@@ -253,6 +253,7 @@
       "sideBar.background": "#FEF8E7",
       "sideBarSectionHeader.background": "#FEF8E7",
       "statusBar.background": "#FEF8E7",
+      "statusBar.noFolderBackground": "#FEF8E7",
       "tab.activeBackground": "#FEF8E7",
       "tab.inactiveBackground": "#FEF8E7",
       "terminal.background": "#FEF8E7",
